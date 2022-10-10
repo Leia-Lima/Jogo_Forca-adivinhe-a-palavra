@@ -1,10 +1,8 @@
-# Jogo_Forca-adivinhe-a-palavra
-
 novo_jogo = "s"
 
 while novo_jogo == "s"
     
-palavra_secreta = {"Cachorro", "Camelo", "Gato", "Pato", "Sapo", "Elefante"}
+palavra_secreta = %w{Cachorro Camelo Gato Pato Sapo Elefante}
 palavra_escolhida = palavra_secreta.sample
 tamanho_palavra = palavra_escolhida.size
 
@@ -50,6 +48,4 @@ end
     puts "Obrigado e até logo!"
 
         
-    end
-    
 end
